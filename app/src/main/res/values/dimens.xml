@@ -7,9 +7,13 @@
     <dimen name="fab_margin">16dp</dimen>
 
     <!-- Text Size -->
-
     <dimen name="tx_small">12sp</dimen>
     <dimen name="tx_medium">16sp</dimen>
     <dimen name="tx_large">20sp</dimen>
     <dimen name="tx_xlarge">50sp</dimen>
+
+    <!-- Margins -->
+    <dimen name="line_margin">70dp</dimen>
+
+
 </resources>

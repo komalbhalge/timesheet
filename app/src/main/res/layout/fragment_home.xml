@@ -66,6 +66,7 @@
         android:textAlignment="center"
         android:textSize="@dimen/tx_large"
         android:textColor="@color/white"
+        android:fontFamily="@font/lobster"
         android:textStyle="bold"
         android:padding="15dp"
         android:text="Wed, Dec 16, 2020"
@@ -96,6 +97,6 @@ android:textColor="@color/white"
         app:layout_constraintLeft_toLeftOf="@id/title_apply_leave"
         app:layout_constraintRight_toRightOf="@id/title_apply_leave"
         app:layout_constraintTop_toTopOf="@id/title_apply_leave"
-        android:background="@drawable/grad_button" />
+        android:background="@drawable/grad_green" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

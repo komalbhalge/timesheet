@@ -1,4 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Navigation bar theme -->
+    <style name="ThemeOverlay.AppCompat.navTheme">
+
+        <!-- Color of text and icon when SELECTED -->
+        <item name="colorPrimary">@color/black</item>
+        <!-- Background color when SELECTED -->
+        <item name="colorControlHighlight">@color/dark_gray</item>
+
+    </style>
     <!-- Base application theme. -->
     <style name="Theme.Timesheet" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
@@ -19,4 +28,8 @@
     </style>
     <style name="Theme.Timesheet.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.Timesheet.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="ShapeAppearance.App.CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>

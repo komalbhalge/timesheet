@@ -24,7 +24,8 @@ class AddEntryFragment : Fragment() {
     val root = inflater.inflate(R.layout.fragment_gallery, container, false)
     val textView: TextView = root.findViewById(R.id.text_gallery)
     addEntryViewModel.text.observe(viewLifecycleOwner, Observer {
-      textView.text = it
+      //textView.text = it
+      textView.text = "Development in progress!"
     })
     return root
   }

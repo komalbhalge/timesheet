@@ -10,4 +10,14 @@
     <color name="dark_gray">#90636363</color>
     <color name="blur_white">#55FFFFFF</color>
     <color name="cal_date">#FF4580E4</color>
+    <color name="dark_green">#FF213B44</color>
+    <color name="hint_color">#FFABABAB</color>
+
+    <color name="pink">#FF982841</color>
+
+    <!--SQLite2EXCEL -->
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#597481</color>
+    <color name="colorAccent">#FFFFFF</color>
+
 </resources>

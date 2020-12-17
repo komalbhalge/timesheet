@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/grad_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+  >
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/btn_close"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_close"
+        android:scaleType="center"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/btn_close"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/tx_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/tx_medium"
+            android:fontFamily="@font/lobster"
+            android:text="1, Jan, 2020"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_starttime"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Start Time"
+            android:textColor="@color/white"
+            android:background="@drawable/grad_black" />
+        <TextView
+            android:id="@+id/tx_time_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/tx_medium"
+            android:text="00:00"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_endtime"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="End Time"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/grad_black" />
+        <TextView
+            android:id="@+id/tx_time_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/tx_medium"
+            android:text="00:00"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tx_hrs_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/tx_medium"
+                android:text="Total hours: "/>
+
+            <TextView
+                android:id="@+id/tx_hrs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/tx_medium"
+                android:text="00:00"/>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="@dimen/tx_medium"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

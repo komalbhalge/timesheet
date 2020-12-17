@@ -4,11 +4,11 @@
     android:shape="rectangle"   >
 
     <solid
-        android:color="@color/cal_date" >
+        android:color="@color/blur_white" >
     </solid>
     <stroke android:width="2dp" android:color="@color/white"/>
     <corners
-        android:radius="20dp"   >
+        android:radius="60dp"   >
     </corners>
 
 </shape>

@@ -12,6 +12,12 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/nav_account"
+        android:name="com.bnm.timesheet.ui.account.FragmentCreateAccount"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_create_account" />
+
+    <fragment
         android:id="@+id/nav_add_entry"
         android:name="com.bnm.timesheet.ui.entry.AddEntryFragment"
         android:label="@string/menu_add_entry"

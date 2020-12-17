@@ -2,12 +2,13 @@
     <string name="app_name">Timesheet</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Komal Bhalge</string>
+    <string name="nav_header_subtitle">komal.bhalge@yahoo.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
+    <string name="menu_account">Account</string>
     <string name="menu_add_entry">Add entry</string>
     <string name="menu_apply_leave">Apply leave</string>
     <string name="menu_total">Total</string>
@@ -15,4 +16,15 @@
     <string name="menu_setting">Settings</string>
     <string name="menu_signout">Sign out</string>
     <string name="menu_create">Create timesheet</string>
+
+    <!-- HINTS-->
+    <string name="hint_name">Enter full name</string>
+    <string name="hint_email">Enter email</string>
+    <string name="hint_pin">Create 4 digit pin</string>
+    <string name="hint_hours">Average working hours per day</string>
+
+    <!-- Alerts-->
+    <string name="alert_title">Alert!</string>
+    <string name="alert_message">Please select start and end time.</string>
+    <string name="inprogress">Development in progress!</string>
 </resources>
