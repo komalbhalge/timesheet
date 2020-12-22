@@ -5,7 +5,7 @@ import com.bnm.timesheet.database.daos.UserDao
 import com.bnm.timesheet.database.entities.User
 
 class UserRepository(context: Context) {
-//Komal
+
     /*var db: UserDao = AppDatabase.getInstance(context)?.userDao()!!
 
 
